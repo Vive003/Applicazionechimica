@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "239477453997",
+    "firebase_url": "https://test-2648a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "test-2648a",
+    "storage_bucket": "test-2648a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239477453997:android:93caafe837f377d8130224",
+        "android_client_info": {
+          "package_name": "com.example.applicazionechimica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239477453997-rgq1hoiifdu1c5f4o64l3q6ho7alq2nf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzn4DEQioM1AEfjjXBw-vcmYieaJNYIJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239477453997-rgq1hoiifdu1c5f4o64l3q6ho7alq2nf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

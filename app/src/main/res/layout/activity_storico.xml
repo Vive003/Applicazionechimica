@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/home"
+                android:layout_width="168dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#00678f"
+                android:baselineAligned="false"
+                android:clickable="true"
+                android:visibility="visible"
+                app:backgroundTint="#00678F"
+                app:maxImageSize="35dp"
+                app:srcCompat="@mipmap/home"
+                app:tint="#d5d5d5" />
+
+
+            <Button
+                android:id="@+id/faiStorico"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#00678f"
+                android:baselineAligned="false"
+                android:clickable="true"
+                android:fontFamily="@font/hind_medium"
+                android:text="Fai lo storico di quest'anno"
+                android:visibility="visible"
+                app:backgroundTint="#00678F"
+                app:maxImageSize="35dp"
+                app:srcCompat="@android:drawable/stat_sys_download"
+                app:tint="#d5d5d5" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listaAnni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titolo"
+        app:layout_constraintVertical_bias="1.0" />
+
+</LinearLayout>
